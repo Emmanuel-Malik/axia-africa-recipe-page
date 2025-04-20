@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 /* RESET */
 *,
@@ -21,9 +21,48 @@ body {
   min-height: 100vh;
   width: 100%;
   background-color: hsl(330, 100%, 98%);
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+}
+
+/* mobile image */
+.mobile-omelette-image {
+  margin-bottom: 1.5rem;
+}
+
+/* desktop image hidden */
+.desktop-omelette-image {
+  display: none;
+}
+
+/* container */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+.section {
   font-family: "Young Serif", serif;
 }
 
+
+/* Header */
+.recipe-title {
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+
+/* attributon */
 .attribution {
   font-size: 11px;
   text-align: center;
